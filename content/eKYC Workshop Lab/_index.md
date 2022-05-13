@@ -6,6 +6,12 @@ tags:
   - eKYC Workshop
 ---
 
+{{% notice info %}}
+此 Workshop 只能在 AWS Event Engine 中运行。
+
+如果希望自行完成 Workshop，请使用这个链接: https://main.drglljxb9rerb.amplifyapp.com/
+{{% /notice  %}}
+
 ![](/images/eKYC/Architecture.png)
 
 eKYC Workshop 将完全基于 Serverless，完成 ID Verification 和 Identity Verification 两项任务，KYC 工作流均通过 Step Function 进行编排，主要包括以下几部分：
